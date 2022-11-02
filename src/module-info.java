@@ -1,0 +1,2 @@
+module fast_java {
+}
