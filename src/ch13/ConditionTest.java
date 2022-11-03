@@ -24,7 +24,7 @@ public class ConditionTest {
 		max = num1 > num2 ? num1 : num2;
 		
 		System.out.println("더 큰 숫자 : " + max);
-		
+		System.out.println();
 		
 	}
 }
