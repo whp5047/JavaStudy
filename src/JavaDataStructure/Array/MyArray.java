@@ -73,6 +73,8 @@ public class MyArray {
 			return ret;
 		}
 		
+		ret = intArr[position];
+		
 		for(int i = position ; i < count -1; i++) {
 			intArr[i] = intArr[i+1]; //하나씩 감소
 		}
