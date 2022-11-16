@@ -18,9 +18,11 @@ public class MemberArrayListTest {
 		
 		memberArrayList.showAllMember();
 		
-		memberArrayList.removeMember(memberKim.getMemberId());
+//		memberArrayList.removeMember(memberKim.getMemberId());
+		memberArrayList.removeMemberThroughIterator(memberKim.getMemberId());
 		
 		memberArrayList.showAllMember(); // 순서는 유지되는 것 확인
+		
 		
 	}
 
