@@ -26,7 +26,7 @@ public class DataStructure {
 	 * 스택(Stack) : 가장 나중에 입력된 자료가 가장 먼저 출력되는 자료 구조(Last In First Out)
 	 * 
 	 * 큐(Queue) : 가장 먼저 입력된 자료가 가장 먼저 출력되는 자료 구조(First In First Out)
-	 * 맨 뒤(near)에서만 추가되고 맨 앞(front)에서 꺼낼 수 있음
+	 * 맨 뒤(rear)에서만 추가되고 맨 앞(front)에서 꺼낼 수 있음
 	 * 
 	 * 
 	 * 2) 비선형 자료 구조 : 1:n, n:1 방식
