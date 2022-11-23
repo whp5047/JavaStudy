@@ -46,7 +46,7 @@ public class FileReaderTest {
 		 * 
 		 * */
 		
-		try(FileReader fr = new FileReader("reader.txt")){
+		try(FileReader fr = new FileReader("reader.txt")){ //FileReader : 파일에서 문자 단위로 읽는 스트림 클래스
 			int i;
 			
 			while( (i = fr.read()) != -1 ) {
