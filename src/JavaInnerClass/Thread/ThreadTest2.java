@@ -29,6 +29,16 @@ public class ThreadTest2 {
 		th2.start();
 		
 		System.out.println("main end");
+		
+//		Runnable run = new Runnable() {
+//			
+//			@Override
+//			public void run() {
+//				// TODO Auto-generated method stub
+//				
+//			}
+//		}; 익명개체로 run구현
+		
 	}
 
 }
