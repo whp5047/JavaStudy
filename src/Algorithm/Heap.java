@@ -1,10 +1,10 @@
 package Algorithm;
 
-public class HeapSort {
+public class Heap {
 	
-	/* 평균 수행 시간이 O(logN)인 알고리즘
-	 * 퀵 정렬(Quick Sort), 병렬 정렬(Merge Sort), 힙 정렬(Heap Sort)
-	 * 한번 수행될 때마다 정렬되어야 하는 수의 범위가 2/1로 줄어드는 경우
+	/* Heap의 삽입, 삭제의 연산은 평균 수행 시간이 O(logN)
+	 * 
+	 * 연산속도가 O(NlogN)인 *정렬 알고리즘은 퀵 정렬(Quick Sort), 병렬 정렬(Merge Sort), 힙 정렬(Heap Sort)이 해당
 	 * 퀵 정렬 이외의 다른 알고리즘은 추가적인 메모리가 필요함
 	 * 
 	 * 우선순위 큐(Priority Queue)를 구현 시 힙(heap)을 사용
@@ -13,7 +13,7 @@ public class HeapSort {
 	private int SIZE;
 	private int heapArr[];
 	
-	public HeapSort()
+	public Heap()
 	{
 		SIZE = 0;
 		heapArr = new int [50];
@@ -68,7 +68,7 @@ public class HeapSort {
 			System.out.printf("[%d] ", heapArr[i]);
 	}
 	public static void main(String[] args) {
-		HeapSort h = new HeapSort();
+		Heap h = new Heap();
 		h.insertHeap(80);
 		h.insertHeap(50);
 		h.insertHeap(70);
